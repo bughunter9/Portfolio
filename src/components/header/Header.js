@@ -4,6 +4,7 @@ import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import { greeting, workExperiences } from "../../portfolio";
+import WorkExperience from "./../../containers/workExperience/WorkExperience";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -28,14 +29,15 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {exp === true && (
-            <li>
-              <a href="#experience">Societies</a>
-            </li>
-          )}
           <li>
             <a href="#opensource">Projects</a>
           </li>
+
+          {exp === true && (
+            <li>
+              <a href="#experience">Work Exp</a>
+            </li>
+          )}
           <li>
             <a href="#achievements">Achievements</a>
           </li>
