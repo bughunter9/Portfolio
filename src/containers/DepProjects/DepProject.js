@@ -18,7 +18,7 @@ export default function DepProject() {
               <Fade bottom duration={1000} distance="20px">
               <div className="experience-container" id="workExperience">
                   <div>
-                      <h1 className="experience-heading">Deployed Projects</h1>
+                      <h1 className="experience-heading">Projects</h1>
                       <div className="experience-cards-div">
                       {depProjects.experience.map((card) => {
                           return (
