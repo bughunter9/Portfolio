@@ -12,7 +12,7 @@ const greeting = {
     "A passionate Frontend Developer and AI enthusiast 🚀 with experience in building applications using Next.js, TypeScript, and React Native. Currently exploring AI development — integrating LLMs with Frontend and implementing AI Agents"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OqmiYeok2wzwbyrqjIW_gYf9n51KAusu/view?usp=sharing",
+    "https://drive.google.com/file/d/1uvT5hC2tQApdiSj83COdVfoHZYenlyiV/view?usp=drivesdk",
 };
 
 // Your Social Media Link
@@ -160,7 +160,7 @@ const techStack = {
       progressPercentage: "50%",
     },
     {
-      Stack: "Programming",
+      Stack: "AI",
       progressPercentage: "60%",
     },
   ],
